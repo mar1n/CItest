@@ -5,4 +5,4 @@ if [ "$TRAVIS" == "true" ]; then
     echo $TRAVIS_HASH
 else
     echo $(git rev-parse --verify HEAD);
-fi
+fi 
