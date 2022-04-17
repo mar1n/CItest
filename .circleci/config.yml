@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     environment:
-       SERVER_IP_ADDRESS: 138.68.163.126
+       SERVER_IP_ADDRESS: 209.97.191.110
        DOKKU_APP: circlecidemo
        TRAVIS: "false"
     docker:
